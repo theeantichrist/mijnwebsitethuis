@@ -3,20 +3,24 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://theeantichrist.github.io/mijnwebsitethuis/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "framer-motion": "^11.0.0",
-    "clsx": "^2.1.1",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^6.0.0"
