@@ -1,0 +1,19 @@
+# De allergrootste map (nooit uploaden!)
+node_modules/
+
+# Mac specifieke bestanden
+.DS_Store
+
+# Build bestanden (de map die Vite maakt)
+dist/
+dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Omgevingsvariabelen (wachtwoorden/keys)
+.env
+.env.local
